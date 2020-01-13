@@ -51,6 +51,7 @@ $ docker-compose exec app composer install
 $ docker-compose exec app cp .env.example .env
 $ docker-compose exec app php artisan key:generate
 $ docker-compose exec app php artisan migrate:fresh
+$ docker-compose exec app php artisan make:auth
 ```
 
 http://127.0.0.1:10080
