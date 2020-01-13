@@ -4,3 +4,4 @@
 !/docker/php/psysh/config.php
 /logs/*
 /.env
+/src
