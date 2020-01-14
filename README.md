@@ -16,7 +16,7 @@ $ git config --global core.autocrlf false
 Build a new Laravel project.
 
 ```
-$ git clone git@github.com:ucan-lab/docker-laravel.git
+$ git clone https://github.com/mustafagenc/docker-laravel.git
 $ cd docker-laravel
 $ cp .env-example .env
 $ docker-compose up -d --build
@@ -31,7 +31,7 @@ http://127.0.0.1:10080
 It is assumed that Laravel is already installed.
 
 ```
-$ git clone git@github.com:ucan-lab/docker-laravel.git
+$ git clone https://github.com/mustafagenc/docker-laravel.git
 $ cd docker-laravel
 ```
 
